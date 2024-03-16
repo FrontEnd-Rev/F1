@@ -1,0 +1,15 @@
+header{
+}
+.top-nav{
+    padding: 0.5rem 1rem;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+}
+
+.top-nav a{
+    color: white !important;
+}
