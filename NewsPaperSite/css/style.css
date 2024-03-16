@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background: #f4f3f3;
+    color: #000000;
+}
+
+a{
+    text-decoration: none;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #000000;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.btn-outline {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #000000;
+    cursor: pointer;
+    border-radius: 20px;
+    border: 1px solid #000;
+}
+
+.btn:hover{
+    background: #fff;
+    color: #000;
+    scale: .7;
+    font-weight: 600;
+    transition: all 0.5s;
+    border: 1px solid black;
+}
+.btn-outline:hover{
+    background: #000000;
+    color: #ffffff;
+    scale: 0.7;
+    font-weight: 600;
+    transition: all 0.5s;
+}
